@@ -36,7 +36,6 @@ hue:
 google_assistant:
   project_id: !secret google_project
   service_account: !include google-assistant.json
-#  service_account: !include HassIO-cad7d30f4ba0.json
   report_state: true
   exposed_domains:
     - switch
