@@ -1,0 +1,15 @@
+- id: '1580871525664'
+  alias: Turn Playroom On When Occupied
+  description: ''
+  trigger:
+  - entity_id: binary_sensor.playroom_occupancy
+    platform: state
+  condition:
+  - condition: state
+    entity_id: binary_sensor.living_room_occupancy
+    state: 'on'
+  action:
+  - entity_id: light.costume_lamp
+    service: light.turn_on
+  - entity_id: light.storage_lamp
+    service: light.turn_on

@@ -1,0 +1,219 @@
+- id: '1580866558994'
+  name: Rose Bedtime
+  entities:
+    light.dresser_lamp:
+      brightness: 41
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Dresser Lamp
+      hs_color:
+      - 335.943
+      - 83.137
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 43
+      - 128
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.573
+      - 0.253
+    light.floor_lamp:
+      brightness: 28
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Floor Lamp
+      hs_color:
+      - 354.34
+      - 83.137
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 43
+      - 62
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.658
+      - 0.294
+- id: '1580868008265'
+  name: Sexy Time
+  entities:
+    light.dad_lamp:
+      brightness: 159
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Dad Lamp
+      hs_color:
+      - 283.009
+      - 88.627
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 191
+      - 29
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.3
+      - 0.12
+    light.mom_lamp:
+      brightness: 188
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Mom Lamp
+      hs_color:
+      - 283.009
+      - 88.627
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 191
+      - 29
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.3
+      - 0.12
+- id: '1581381182904'
+  name: Security
+  entities:
+    light.costume_lamp:
+      brightness: 254
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Costume Lamp
+      hs_color:
+      - 0
+      - 0.392
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 254
+      - 254
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.324
+      - 0.329
+    light.dad_lamp:
+      brightness: 254
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Dad Lamp
+      hs_color:
+      - 0
+      - 0.392
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 254
+      - 254
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.324
+      - 0.329
+    light.dresser_lamp:
+      brightness: 254
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Dresser Lamp
+      hs_color:
+      - 0
+      - 0.392
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 254
+      - 254
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.324
+      - 0.329
+    light.floor_lamp:
+      brightness: 254
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Floor Lamp
+      hs_color:
+      - 0
+      - 0.392
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 254
+      - 254
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.324
+      - 0.329
+    light.mom_lamp:
+      brightness: 254
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Mom Lamp
+      hs_color:
+      - 0
+      - 0.392
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 254
+      - 254
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.324
+      - 0.329
+    light.storage_lamp:
+      brightness: 254
+      effect: none
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Storage Lamp
+      hs_color:
+      - 0
+      - 0.392
+      max_mireds: 500
+      min_mireds: 153
+      rgb_color:
+      - 255
+      - 254
+      - 254
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.324
+      - 0.329

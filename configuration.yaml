@@ -1,0 +1,48 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+#lovelace:
+#  mode: yaml
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+http:
+  base_url: https://vertigohome.duckdns.org/
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+
+ecobee:
+  # api_key: kkLhImaLKZYRDYy5k5mzudQMzFQoGQuH
+  api_key: !secret ecobee_api
+
+hue:
+  bridges:
+#    - host: 10.10.40.100
+    - host: !secret hue_host_ip
+      allow_unreachable: true
+      allow_hue_groups: false
+
+# Example configuration.yaml entry
+google_assistant:
+  # project_id: hassio-a99ef
+  project_id: !secret google_project
+  service_account: !include HassIO-cad7d30f4ba0.json
+  report_state: true
+  exposed_domains:
+    - switch
+    - light
+    - scene
+    - sensor
+    - climate
